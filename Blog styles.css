@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}  
+
+h1 {
+    margin: 0; 
+    width: 1350px;
+    height: 150px;
+    background-color: turquoise;
+    text-align: center;
+    }  
+
+.Menu { 
+    width: 200px;
+    height: 500px;
+    background-color: yellow;
+    text-align: center;
+    float: right;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+
+.Europe { width: 1150px;height: 250px;background-color: violet;font-size: 50px;text-align: center;
+}
+
+.America { width: 1150px;height: 250px;background-color: rgb(247, 0, 255); font-size: 50px;text-align: center;
+}
+
+.clear{ clear: both;}
+
+.footer { width: 1350; height: 150px; background-color: turquoise; font-weight: bold;font-size: 50px;text-align: center;
+}
+ 
