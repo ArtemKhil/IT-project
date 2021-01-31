@@ -18,12 +18,19 @@
 
 .header_nav {
     display: flex;
-    column-gap: 30px; }
+    column-gap: 30px;
+           }
 
-    .nav_item { font-size: 16px;
+    .nav_item a { font-size: 16px;
         color: #292929;
         font-weight: 500;
-        text-transform: uppercase;}
+        text-transform: uppercase;
+         text-decoration: none;
+        }
+    .nav_item a:hover {
+        color: #3298f2;
+
+    }
 
     .header_callback{
         width: 250px;
@@ -40,3 +47,146 @@
         color: #3298f2;
         background-color: transparent;
     }
+
+    .header_main{
+        padding: 89px 100px 145px 245px;
+        
+
+    }
+
+
+    .header_content {
+        width: 640px;
+       
+    }
+
+    .header_sup-title {
+        font-size: 19px;
+        font-weight: 900;
+        line-height: 23px;
+        color: #ff9638;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+
+    .header_title {
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 37px;
+        text-transform: uppercase;
+        margin-bottom: 60px;
+
+    }
+
+    .header_title span {
+        color: #3298f2;
+
+    }
+
+    .header_text {
+        font-weight: 500;
+        line-height: 26px;
+        color: #333333;
+
+
+    }
+
+    .header_text p:last-child {
+        font-weight: bold;
+        margin-top: 37px;
+
+        
+    }
+
+    .header_content_button {
+        margin-top: 120px;
+
+    }
+
+    .header_content_button button {
+        width: 382px;
+        height: 60px;
+        background-color: #ff9638;
+        border-radius: 6px;
+        font-weight: bold;
+        color: #292929;
+        border: none;
+    }
+
+    .header_main { display: flex;
+        justify-content: space-between;
+        position: relative;
+
+    }
+
+    .header_school {
+        width: 760px ;
+    }
+
+    .header_school-okten {
+        font-size: 202px;
+        font-weight: 900;
+        text-transform: uppercase;
+        background: linear-gradient(90deg, #3298f2, #ff9638);
+        -webkit-background-clip: text;
+        color: transparent;
+        line-height: 149px;
+        margin-bottom: 40px;
+    }
+
+    .header_school2 {
+        font-size: 168px;
+        font-weight: 900;
+        color: #ffffff;
+        -webkit-text-stroke-color: #3298f2;
+        -webkit-text-stroke-width: 2px;
+        text-transform: uppercase;
+        line-height: 138px;
+        margin-bottom: 40px; }
+
+        .header_school-program {
+            font-size: 68px;
+            font-weight: 83px;
+            text-transform: uppercase;
+            font-weight: 900;
+
+        }
+
+        .play_wrap, .play_button, .play {
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .play_wrap {
+            width: 156px;
+            position: absolute;
+            height: 156px;
+            bottom: 0;
+            border: 1px solid #ff9638;
+            left: 50%;
+            margin-left: -78px;
+            
+        }
+
+        .play_button {
+            width: 96px;
+            height: 96px;
+            border: 2px solid #ff9638;
+         }
+
+         .play {
+             width: 82px;
+             height: 82px;
+             border: 3px solid  #ff9638;
+             background-color: #c4c4c4;
+
+        }
+
+        .play i {
+            font-size: 25px;
+            color: white;
+
+        }
